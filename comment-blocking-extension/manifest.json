@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+   
+    "name": "YouTube+",
+    "version": "0.1.0",
+    "description": "Remove youtube comments, view numbers and like numbers to make you focus on the video and not what others think about it",
+   
+    "content_scripts": [{
+      "css": ["style.css"],
+      "js": ["content.js"],
+      "matches": ["https://www.youtube.com/*"]
+    }]
+   
+  }

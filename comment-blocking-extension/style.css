@@ -1,0 +1,33 @@
+ytd-comments {
+    display: none !important;
+}
+
+yt-formatted-string#text.style-scope.ytd-toggle-button-renderer.style-text{ /* Removes like number */
+    display: none;
+}
+
+yt-formatted-string#text.style-scope.ytd-toggle-button-renderer.style-default-active{
+    display: none;
+}
+
+span.view-count.style-scope.yt-view-count-renderer{ /* Remove view number*/
+    display:none;
+}
+
+#count.ytd-video-primary-info-renderer::before{ /* Replace view number*/
+    content: 'VIEWS HIDDEN';
+    color: var(--yt-metadata-color);
+}
+
+
+span.deemphasize.style-scope.yt-formatted-string{ /* Remove subscriber number*/
+    display:none;
+}
+
+span.style-scope.ytd-grid-video-renderer::after{
+    display:none;
+}
+
+#sentiment{
+    display: none;
+}
